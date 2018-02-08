@@ -22,12 +22,25 @@ body {
 }
 
 .destination-container {
+    transform: rotate(0deg);
     display: flex;
     flex-flow: wrap;
     justify-content: center;
 }
 
-.destination {
+
+
+
+h2 {
+      margin: 0;
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #01579b;
+    margin: 0;
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+    text-shadow: 0 0 5px #01579b;
+}
     background: #03a9f4;
     box-shadow: 0 1px 9px 0 rgba(0, 0, 0, 0.4);
     color: white;
